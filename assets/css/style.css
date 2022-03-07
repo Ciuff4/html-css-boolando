@@ -8,14 +8,15 @@ body{
     margin:0px auto;
 }
 
-.immagine{
-    height: 400px;
-    width: 300px;
+.box{
+    width: 33%;
     margin-top: 20px;
     position: relative;
+    height: 400px;
 }
 
 /* image */
+
 img{
     width: 100%;
     position: absolute;
@@ -30,4 +31,26 @@ img{
     z-index: 50;
     padding: 5px 10px;
     background-color: white;
+}
+
+.discount{
+    position:absolute;
+    bottom: 94px;
+    left: 0 px;
+    z-index: 50;
+    background-color: red;
+    padding: 5px;
+}
+
+.sustainable{
+    position: absolute;
+    bottom: 94px;
+    left: 41px;
+    z-index: 50;
+    padding: 5px;
+    background-color: #008659;
+}
+
+.heart:hover{
+    color: red;
 }
