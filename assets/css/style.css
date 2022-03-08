@@ -25,14 +25,16 @@ div img {
 }
 
 .second-pic{
-    position:absolute;
-    top: 0;
-    left: 0;
+    
     display: none;
 }
 
-.first-pic:hover .second-pic{
-    display: block;
+.image:hover .first-pic{
+    display: none;
+}
+
+.image:hover .second-pic{
+    display:inline-block;
 }
 
 .heart{
@@ -72,8 +74,12 @@ div img {
 
 .description .name{
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.description{
+.price{
     padding-bottom:40px
+}
+.price span{
+    color: red;
 }
